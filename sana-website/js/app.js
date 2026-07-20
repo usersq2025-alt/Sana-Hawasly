@@ -13,7 +13,7 @@
   // Paste your deployed Apps Script Web App URL here.
   // Leave as-is (empty) to use the bundled local JSON during development.
   const CONFIG = {
-    API_URL: "", // e.g. "https://script.google.com/macros/s/AKfy...XXXX/exec"
+    API_URL: "https://script.google.com/macros/s/AKfycbwfJynEnO7uevZGDR4LdtiDcEhT6BGnbHe6VXIz-D-R0c-j4KQ2JshARV-ca5_mucDu/exec", // e.g. "https://script.google.com/macros/s/AKfy...XXXX/exec"
     LOCAL_FALLBACK: "data/content.json",
     CACHE_KEY: "sana_cms_cache_v1",
     CACHE_TTL_MS: 1000 * 60 * 30, // 30 min client cache
