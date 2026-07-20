@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sana Hawasly — Personal Site</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Sana Hawasly — education technologist, humanitarian, and engineer. Senior Education Program Officer at Molham Team. MA in Education & Technology, UCL.">
+  <meta name="author" content="Sana Hawasly">
+  <meta name="theme-color" content="#0B1F3A">
+  <link rel="canonical" href="https://www.sanahawasly.com/">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="Sana Hawasly">
+  <meta property="og:description" content="Education technologist, humanitarian, and engineer building learning systems where they are needed most.">
+  <meta property="og:url" content="https://www.sanahawasly.com/">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="ar_AR">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Tajawal:wght@400;500;700&family=Amiri:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sana Hawasly",
+    "alternateName": "سنا حواصلي",
+    "jobTitle": "Senior Education Program Officer",
+    "worksFor": { "@type": "Organization", "name": "Molham Team" },
+    "url": "https://www.sanahawasly.com",
+    "email": "sana.haw@gmail.com",
+    "address": { "@type": "PostalAddress", "addressLocality": "Damascus", "addressCountry": "Syria" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "University College London" },
+      { "@type": "CollegeOrUniversity", "name": "Damascus University" }
+    ],
+    "knowsLanguage": ["ar", "en"]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-ui="nav_about">Skip to content</a>
+  <div id="stale-banner" class="data-state error" hidden style="position:fixed;inset-block-start:78px;inset-inline:1rem;z-index:150;"></div>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a href="#top" class="brand"><span class="brand-dot"></span><span class="js-brand">Sana Hawasly</span></a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about"        data-section="about"        data-ui="nav_about">About</a>
+        <a href="#experience"   data-section="experience"   data-ui="nav_experience">Experience</a>
+        <a href="#education"    data-section="education"    data-ui="nav_education">Education</a>
+        <a href="#awards"       data-section="awards"       data-ui="nav_awards">Awards</a>
+        <a href="#publications" data-section="publications" data-ui="nav_publications">Writing</a>
+        <a href="#news"         data-section="news"         data-ui="nav_news">News</a>
+        <a href="#gallery"      data-section="gallery"      data-ui="nav_gallery">Gallery</a>
+        <a href="#contact"      data-section="contact"      data-ui="nav_contact">Contact</a>
+      </nav>
+      <div class="nav-tools">
+        <button class="lang-toggle" aria-label="Switch language / تبديل اللغة">
+          <span class="on">EN</span><span aria-hidden="true">·</span><span class="off">ع</span>
+        </button>
+        <button class="nav-burger" aria-label="Menu" aria-expanded="false"><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <span id="top"></span>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <span class="hero-eyebrow"><span class="pulse"></span><span id="hero-eyebrow-text">Education · Technology · Impact</span></span>
+          <h1 id="hero-name">Sana <span class="accent">Hawasly</span></h1>
+          <p class="hero-role" id="hero-role"></p>
+          <p class="hero-tagline" id="hero-tagline"></p>
+          <div class="hero-meta">
+            <span id="hero-loc"></span>
+            <span id="hero-mail"></span>
+          </div>
+          <div class="hero-cta">
+            <a href="#contact" class="btn btn-primary"><span data-ui="cta_contact">Get in touch</span></a>
+            <a href="#" class="btn btn-ghost js-cv" download><span data-ui="cta_cv">Download CV</span></a>
+          </div>
+        </div>
+        <div class="hero-figure">
+          <div class="portrait">
+            <div id="portrait-circuit"></div>
+            <div class="initials" id="hero-initials">SH</div>
+            <div class="portrait-badge"><span class="dot"></span><span id="portrait-role"></span></div>
+          </div>
+          <span class="node-chip n1">UCL · MA EdTech</span>
+          <span class="node-chip n2">Computer Eng.</span>
+          <span class="node-chip n3">UNDP · UNFPA</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_about">01</span>
+          <h2 class="sec-title" data-ui="t_about">About</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-lead reveal" id="about-lead"></p>
+          <div class="about-stats js-datazone" id="about-stats"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_exp">02</span>
+          <h2 class="sec-title" data-ui="t_exp">Experience</h2>
+        </div>
+        <div class="timeline js-datazone" id="experience-list"></div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="section section--tight" id="education">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_edu">03</span>
+          <h2 class="sec-title" data-ui="t_edu">Education</h2>
+        </div>
+        <div class="grid grid-3 js-datazone" id="education-list"></div>
+      </div>
+    </section>
+
+    <!-- ===== Awards ===== -->
+    <section class="section" id="awards">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_awards">04</span>
+          <h2 class="sec-title" data-ui="t_awards">Awards &amp; Honors</h2>
+        </div>
+        <div class="awards-filter" id="awards-filter"></div>
+        <div class="grid grid-3 js-datazone" id="awards-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Training ===== -->
+    <section class="section section--tight" id="training">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_training">05</span>
+          <h2 class="sec-title" data-ui="t_training">Training &amp; Certification</h2>
+        </div>
+        <div class="training-list js-datazone" id="training-list"></div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="section section--tight" id="skills">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_skills">06</span>
+          <h2 class="sec-title" data-ui="t_skills">Skills</h2>
+        </div>
+        <div class="skills-grid js-datazone" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Publications ===== -->
+    <section class="section" id="publications">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_pubs">07</span>
+          <h2 class="sec-title" data-ui="t_pubs">Writing &amp; Research</h2>
+        </div>
+        <div class="grid grid-2 js-datazone" id="publications-list"></div>
+      </div>
+    </section>
+
+    <!-- ===== News ===== -->
+    <section class="section section--tight" id="news">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_news">08</span>
+          <h2 class="sec-title" data-ui="t_news">News</h2>
+        </div>
+        <div class="grid grid-3 js-datazone" id="news-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Gallery ===== -->
+    <section class="section" id="gallery">
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_gallery">09</span>
+          <h2 class="sec-title" data-ui="t_gallery">Gallery</h2>
+        </div>
+        <div class="gallery-grid js-datazone" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact">
+      <div class="circuit-bg" id="contact-circuit"></div>
+      <div class="wrap">
+        <div class="sec-head">
+          <span class="sec-index" data-ui="idx_contact">10</span>
+          <h2 class="sec-title" data-ui="t_contact">Get in touch</h2>
+        </div>
+        <div class="contact-grid">
+          <p class="contact-lead" id="contact-lead"></p>
+          <div class="social-list js-datazone" id="social-list"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a href="#top" class="footer-brand"><span class="brand-dot"></span><span id="footer-brand-name">Sana Hawasly</span></a>
+      <div class="footer-refs" id="footer-refs"></div>
+      <div class="footer-meta">© <span id="footer-year">2025</span> · <span id="footer-rights">All rights reserved.</span></div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
